@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const johnny_five_1 = require("johnny-five");
-const board = new johnny_five_1.default.Board();
+const board = johnny_five_1.default.board();
 board.on("ready", function () {
-    const servo = new johnny_five_1.default.Servo(17);
+    const servo = johnny_five_1.default.Servo(17);
     // Servo alternate constructor with options
     /*
     var servo = new five.Servo({
