@@ -1,9 +1,9 @@
 import five from "johnny-five"
 
-const board = new five.Board()
+const board = five.board()
 
 board.on("ready", function() {
-  const servo = new five.Servo(17)
+  const servo = five.Servo(17)
   // Servo alternate constructor with options
 /*
 var servo = new five.Servo({
