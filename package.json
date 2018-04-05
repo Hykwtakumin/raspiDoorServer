@@ -1,0 +1,20 @@
+{
+  "name": "raspidoorserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "browserify": "browserify ./dist/index.js -o ./public/js/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "*",
+    "browserify": "*"
+  },
+  "author": "hykwtakumin <hykwtakumin@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^0.14.2"
+  }
+}
