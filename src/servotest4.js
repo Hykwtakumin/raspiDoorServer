@@ -1,5 +1,5 @@
 var raspi = require('raspi');
-var PWM = require('raspi-pwm').PWM;
+var PWM = require('raspi-pwm');
 
 raspi.init(function() {
     var pwm = new PWM('GPIO17');
