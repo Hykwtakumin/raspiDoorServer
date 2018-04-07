@@ -1,3 +1,5 @@
+'use strict';
+
 var Scripts, _, fs, path, wildcardToRegExp;
 
 path = require('path');

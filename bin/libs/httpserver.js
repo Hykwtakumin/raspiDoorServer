@@ -1,3 +1,5 @@
+'use strict';
+
 var bodyParser, debug, express, http, router;
 
 debug = require('debug')('linda:worker:httpserver');
